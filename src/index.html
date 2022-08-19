@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immuna</title>
+    <link rel="stylesheet" href="./styles/output.css" />
+</head>
+
+<body>
+    <div class="max-w-lg mx-auto border rounded-xl my-10">
+        <div class="flex justify-between p-5 border-b">
+            <p class="text-sm font-light">Add Alerts</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+                <path
+                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z" />
+            </svg>
+        </div>
+
+        <div class="space-y-5 my-5 px-5 max-w-sm mx-auto">
+            <label for="protocol" class="block text-gray-700">Protocol</label>
+            <div class="rounded-full border p-4">
+                <select type="text" class="w-full text-gray-500 text-sm outline-none">
+                    <option value="">Select protocol</option>
+                    <option value="">Protocol 1</option>
+                    <option value="">Protocol 2</option>
+                </select>
+            </div>
+
+            <label for="protocol" class="block text-gray-700">My Liquidity</label>
+            <div class="rounded-full border p-4">
+                <select type="text" class="w-full text-gray-500 text-sm outline-none">
+                    <option value="">Select liquidity</option>
+                    <option value="">Liquidity 1</option>
+                    <option value="">Liquidity 2</option>
+                </select>
+            </div>
+
+            <label for="protocol" class="block text-gray-700">Event Type</label>
+            <div class="rounded-full border p-4">
+                <select type="text" class="w-full text-gray-500 text-sm outline-none">
+                    <option>Select type</option>
+                    <option>Type 1</option>
+                    <option>Type 2</option>
+                </select>
+            </div>
+
+            <label for="protocol" class="block text-gray-700">Liquidity Change Value</label>
+            <div class="relative py-1 h-4">
+                <div class="rounded-full border h-full">
+                    <div class="absolute w-6 h-4 left-0 inset-y-0 rounded-xl bg-gray-300 border border-gray-400 cursor-pointer"></div>
+                </div>
+            </div>
+
+            <label for="protocol" class="block text-gray-700">Severity</label>
+            <div class="rounded-full border p-4">
+                <select type="text" class="w-full text-gray-500 text-sm outline-none">
+                    <option>Set severity</option>
+                    <option>Severity 1</option>
+                    <option>Severity 2</option>
+                </select>
+            </div>
+
+            <a href="dashboard.html" class="block w-full bg-blue-500 rounded-full p-4 text-white font-light text-sm">Add to Alerts</a>
+        </div>
+    </div>
+</body>
+
+</html>
